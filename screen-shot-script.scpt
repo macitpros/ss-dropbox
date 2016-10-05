@@ -5,7 +5,15 @@ set dropboxtoken to "yourtokennumberhere"
 set tempfolder to "private/tmp/sstomitp/"
 set ssfolder to do shell script ("mkdir -p " & tempfolder)
 
-set the_named_file to "ScreenShot--" & (do shell script "date \"+%Y-%m-%d--%H.%M.%S\"") & ".png"
+# get the serial number of the machine
+set strSerialNumber to do shell script "system_profiler SPHardwareDataType | awk '/Serial Number/ { print $4 }'"
+
+#get the date
+set strDate to do shell script "date \"+%Y-%m-%d--%H.%M.%S\""
+
+#create the final file name
+set the_named_file to "ScreenShot--" & strDate & "-" & strSerialNumber & ".png"
+
 do shell script "screencapture -C " & tempfolder & quoted form of the_named_file & " " & tempfolder & quoted form of the_named_file & "-1.png"
 set thesstosend to tempfolder & the_named_file
 --set thesstosend2 to tempfolder & the_named_file & "-1.png" as POSIX file
