@@ -24,8 +24,8 @@ After you set up the Dropbox account for this to work, simply share the folder w
 After you get the Application created and installed, you'll need to get it's unique bundle ID.  Here's how to do it:
 
 1. Open Terminal.app (in Applications/Utilities)
-2. Run the following command: `osascript -e 'id of app "YourAppName.app"'` (replace YourAppName.app with the name of your Applescript App.)
-3. Create a new Application menu item in your Watchman contact menu editor: https://youraccount.monitoringclient.com/contact-menu/customize (replace "youraccount" with, your Watchman account name)
+2. Run the following command: `osascript -e 'id of app "YourAppName.app"'` (replace YourAppName.app with the name of your AppleScript App.)
+3. Create a new Application menu item in your Watchman Monitoring Contact Menu editor: `https://app.monitoringclient.com/contact-menu/customize` (replace "app" with, your Watchman Monitoring account's subdomain)
 4. Choose "Launch Using" as "Apple Bundle Identifier" from the dropdown menu.
 5. Enter the unique bundle ID (ie. `com.apple.ScriptEditor.id.screen-shot-script`)
 6. Test, test, test!
