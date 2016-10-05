@@ -17,7 +17,7 @@ After you set up the Dropbox account for this to work, simply share the folder w
 3. Modify the script with your token.
 4. Save the script as an Application.
 5. Install the new Application in the Applications folder.
-6. Create some easy way for your customer to get at it (Dock, alias, etc…)
+6. Create some easy way for your customer to get at it (Watchman Contact menu, Dock, alias, etc…)
 
 **Extra tip:**
 
