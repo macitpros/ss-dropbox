@@ -16,7 +16,7 @@ After you set up the Dropbox account for this to work, simply share the folder w
 2. Get the Dropbox token: https://dropbox.github.io/dropbox-api-v2-explorer/#auth_token/revoke
 3. Modify the script with your token.
 4. Save the script as an Application.
-5. Install the new Application in the Applications folder.
+5. Install the new Application in the `/Applications` folder. Ensuring it is saved with `root` as the owner will prevent gatekeeper warnings.
 6. Create some easy way for your customer to get at it (Watchman Contact menu, Dock, alias, etc…)
 
 **Adding to the Watchman Monitoring Contact Menu**
