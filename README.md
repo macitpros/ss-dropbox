@@ -27,7 +27,7 @@ After you get the Application created and installed, you'll need to get it's uni
 2. Run the following command: `osascript -e 'id of app "YourAppName.app"'` (replace YourAppName.app with the name of your Applescript App.)
 3. Create a new Application menu item in your Watchman contact menu editor: https://youraccount.monitoringclient.com/contact-menu/customize (replace "youraccount" with, your Watchman account name)
 4. Choose "Launch Using" as "Apple Bundle Identifier" from the dropdown menu.
-5. Enter the unique bundle ID (ie. `com.apple.ScriptEditor.id.ScreenShot`)
+5. Enter the unique bundle ID (ie. `com.apple.ScriptEditor.id.screen-shot-script`)
 6. Test, test, test!
 
 **Extra tip:**
