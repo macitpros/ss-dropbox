@@ -26,3 +26,5 @@ If you want some storage space, before you setup your “Screen Shot” Dropbox 
 **Say thanks:**
 
 If you want to say thank you to me for posting this script, use my referral link instead. Then I’ll can get some extra Dropbox storage: https://db.tt/CBedkPOm
+
+**USE THIS SCRIPT AT YOUR OWN RISK**
