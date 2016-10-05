@@ -1,6 +1,6 @@
 # ss-dropbox
-## Applescript to take a screen shot and upload it to a Dropbox account.
-###### This simple Applescript will take a screen shot, save it to the tmp directory, then upload to Dropbox. This script was developed for those times a customer/client doesn't have email access (because of an error message on their screen), or the customer is generally challenged when it comes to taking and sending a screen shot.
+## AppleScript to take a screen shot and upload it to a Dropbox account.
+###### This simple AppleScript will take a screen shot, save it to the tmp directory, then upload to Dropbox. This script was developed for those times a customer/client doesn't have email access (because of an error message on their screen), or the customer is generally challenged when it comes to taking and sending a screen shot.
 You'll need the following in order to make this script work. A Dropbox account (I suggest using a standalone account, you'll see why soon). A Dropbox token: https://dropbox.github.io/dropbox-api-v2-explorer/#auth_token/revoke
 
 It is highly suggested that you create and use a separate Dropbox account when using this script. There are 2 main reasons for this.
@@ -19,7 +19,7 @@ After you set up the Dropbox account for this to work, simply share the folder w
 5. Install the new Application in the Applications folder.
 6. Create some easy way for your customer to get at it (Watchman Contact menu, Dock, alias, etc…)
 
-**Adding to Watchman Contact Menu**
+**Adding to the Watchman Monitoring Contact Menu**
 
 After you get the Application created and installed, you'll need to get it's unique bundle ID.  Here's how to do it:
 
