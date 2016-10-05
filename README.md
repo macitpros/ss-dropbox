@@ -19,6 +19,16 @@ After you set up the Dropbox account for this to work, simply share the folder w
 5. Install the new Application in the Applications folder.
 6. Create some easy way for your customer to get at it (Watchman Contact menu, Dock, alias, etc…)
 
+**Adding to Watchman Contact Menu**
+After you get the Application created and installed, you'll need to get it's unique bundle ID.  Here's how to do it:
+
+1. Open Terminal.app (in Applications/Utilites)
+2. Run the following command: osascript -e 'id of app "YourAppName.app"' (replace YourAppName.app with the name of your Applescript App.)
+3. Create a new Application menu item in your Watchman contact menu editor (https://youraccount.monitoringclient.com/contact-menu/customize)
+4. Choose "Launch Using" as "Apple Bundle Identifier" from the dropdown meu.
+5. Enter the unique bundle ID (ie. `com.apple.ScriptEditor.id.ScreenShot`)
+6. Test, test, test!
+
 **Extra tip:**
 
 If you want some storage space, before you setup your “Screen Shot” Dropbox account, go to your main Dropbox account and either invite yourself to a new Dropbox account, or grab the link and sign up from there: https://www.dropbox.com/account (under the Account tab).
