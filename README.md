@@ -20,6 +20,7 @@ After you set up the Dropbox account for this to work, simply share the folder w
 6. Create some easy way for your customer to get at it (Watchman Contact menu, Dock, alias, etc…)
 
 **Adding to Watchman Contact Menu**
+
 After you get the Application created and installed, you'll need to get it's unique bundle ID.  Here's how to do it:
 
 1. Open Terminal.app (in Applications/Utilites)
