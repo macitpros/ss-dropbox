@@ -1,6 +1,6 @@
 # ss-dropbox
 ## AppleScript to take a screen shot and upload it to a Dropbox account.
-###### This simple AppleScript will take a screen shot, save it to the tmp directory, then upload to Dropbox. This script was developed for those times a customer/client doesn't have email access (because of an error message on their screen), or the customer is generally challenged when it comes to taking and sending a screen shot.
+###### This simple AppleScript will take a screen shot, save it to the tmp directory, then upload to Dropbox. This script was developed for those times a customer/client doesn't have email access (because of an error message on their screen), or the customer is generally challenged when it comes to taking and sending a screen shot. The screen shot will be placed in ScreenShots/_SerialNumber_ folder on Dropbox along with a .webloc file opening the corresponding Watchman Monitoring record. The webloc file is for quick access to the client's Watchman record.
 You'll need the following in order to make this script work. A Dropbox account (I suggest using a standalone account, you'll see why soon). A Dropbox token: https://dropbox.github.io/dropbox-api-v2-explorer/#auth_token/revoke
 
 It is highly suggested that you create and use a separate Dropbox account when using this script. There are 2 main reasons for this.
